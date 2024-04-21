@@ -1,0 +1,164 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.2.4
+2 info using node@v20.11.1
+3 timing npm:load:whichnode Completed in 4ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/taya/Library/Caches/typescript/5.3/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/Users/taya/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 11ms
+17 timing npm:load:configload Completed in 11ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install @types/babel__core@ts5.3 @types/node@ts5.3
+22 verbose argv "install" "--ignore-scripts" "@types/babel__core@ts5.3" "@types/node@ts5.3" "--save-dev" "--user-agent" "typesInstaller/5.3.2"
+23 timing npm:load:setTitle Completed in 7ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:/Users/taya/.npm/_logs/2024-03-10T18_15_17_827Z-
+26 verbose logfile /Users/taya/.npm/_logs/2024-03-10T18_15_17_827Z-debug-0.log
+27 timing npm:load:logFile Completed in 6ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 46ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 24ms
+34 timing arborist:ctor Completed in 0ms
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 318ms (cache revalidated)
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__core 2307ms (cache miss)
+37 timing idealTree:userRequests Completed in 2310ms
+38 silly idealTree buildDeps
+39 silly fetch manifest @types/node@20.11.25
+40 silly fetch manifest @types/babel__core@7.20.5
+41 silly placeDep ROOT @types/babel__core@7.20.5 OK for:  want: 7.20.5
+42 silly fetch manifest @babel/parser@^7.20.7
+43 silly fetch manifest @babel/types@^7.20.7
+44 silly fetch manifest @types/babel__generator@*
+45 silly fetch manifest @types/babel__template@*
+46 silly fetch manifest @types/babel__traverse@*
+47 silly placeDep ROOT @types/node@20.11.25 OK for:  want: 20.11.25
+48 silly fetch manifest undici-types@~5.26.4
+49 http fetch GET 200 https://registry.npmjs.org/@babel%2ftypes 382ms (cache revalidated)
+50 http fetch GET 200 https://registry.npmjs.org/undici-types 383ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__template 1283ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__generator 1393ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__traverse 1997ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 2023ms (cache revalidated)
+55 timing idealTree:#root Completed in 2028ms
+56 silly placeDep ROOT @babel/parser@7.24.0 OK for: @types/babel__core@7.20.5 want: ^7.20.7
+57 silly placeDep ROOT @babel/types@7.24.0 OK for: @types/babel__core@7.20.5 want: ^7.20.7
+58 silly fetch manifest @babel/helper-string-parser@^7.23.4
+59 silly fetch manifest @babel/helper-validator-identifier@^7.22.20
+60 silly fetch manifest to-fast-properties@^2.0.0
+61 silly placeDep ROOT @types/babel__generator@7.6.8 OK for: @types/babel__core@7.20.5 want: *
+62 silly placeDep ROOT @types/babel__template@7.4.4 OK for: @types/babel__core@7.20.5 want: *
+63 silly placeDep ROOT @types/babel__traverse@7.20.5 OK for: @types/babel__core@7.20.5 want: *
+64 http fetch GET 200 https://registry.npmjs.org/to-fast-properties 80ms (cache revalidated)
+65 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-string-parser 130ms (cache revalidated)
+66 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 131ms (cache revalidated)
+67 timing idealTree:node_modules/@types/babel__core Completed in 134ms
+68 timing idealTree:node_modules/@babel/parser Completed in 0ms
+69 silly placeDep ROOT @babel/helper-string-parser@7.23.4 OK for: @babel/types@7.24.0 want: ^7.23.4
+70 silly placeDep ROOT @babel/helper-validator-identifier@7.22.20 OK for: @babel/types@7.24.0 want: ^7.22.20
+71 silly placeDep ROOT to-fast-properties@2.0.0 OK for: @babel/types@7.24.0 want: ^2.0.0
+72 timing idealTree:node_modules/@babel/types Completed in 3ms
+73 timing idealTree:node_modules/@babel/helper-string-parser Completed in 0ms
+74 timing idealTree:node_modules/@babel/helper-validator-identifier Completed in 0ms
+75 timing idealTree:node_modules/@types/babel__generator Completed in 0ms
+76 timing idealTree:node_modules/@types/babel__template Completed in 0ms
+77 timing idealTree:node_modules/@types/babel__traverse Completed in 0ms
+78 silly placeDep ROOT undici-types@5.26.5 OK for: @types/node@20.11.25 want: ~5.26.4
+79 timing idealTree:node_modules/@types/node Completed in 0ms
+80 timing idealTree:node_modules/to-fast-properties Completed in 0ms
+81 timing idealTree:node_modules/undici-types Completed in 0ms
+82 timing idealTree:buildDeps Completed in 2167ms
+83 timing idealTree:fixDepFlags Completed in 0ms
+84 timing idealTree Completed in 4502ms
+85 timing reify:loadTrees Completed in 4503ms
+86 timing reify:diffTrees Completed in 1ms
+87 silly reify moves {}
+88 timing reify:retireShallow Completed in 0ms
+89 timing reify:createSparse Completed in 1ms
+90 timing reify:loadBundles Completed in 0ms
+91 silly audit bulk request {
+91 silly audit   '@types/prop-types': [ '15.7.11' ],
+91 silly audit   '@types/react': [ '18.2.64' ],
+91 silly audit   '@types/react-dom': [ '18.2.21' ],
+91 silly audit   '@types/scheduler': [ '0.16.8' ],
+91 silly audit   csstype: [ '3.1.3' ],
+91 silly audit   'types-registry': [ '0.1.684' ],
+91 silly audit   '@types/babel__core': [ '7.20.5' ],
+91 silly audit   '@types/node': [ '20.11.25' ],
+91 silly audit   '@babel/parser': [ '7.24.0' ],
+91 silly audit   '@babel/types': [ '7.24.0' ],
+91 silly audit   '@types/babel__generator': [ '7.6.8' ],
+91 silly audit   '@types/babel__template': [ '7.4.4' ],
+91 silly audit   '@types/babel__traverse': [ '7.20.5' ],
+91 silly audit   '@babel/helper-string-parser': [ '7.23.4' ],
+91 silly audit   '@babel/helper-validator-identifier': [ '7.22.20' ],
+91 silly audit   'to-fast-properties': [ '2.0.0' ],
+91 silly audit   'undici-types': [ '5.26.5' ]
+91 silly audit }
+92 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz. Extracting by manifest.
+93 silly tarball no local data for @types/babel__template@https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz. Extracting by manifest.
+94 silly tarball no local data for @types/babel__traverse@https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.20.5.tgz. Extracting by manifest.
+95 silly tarball no local data for @types/babel__generator@https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.6.8.tgz. Extracting by manifest.
+96 silly tarball no local data for @types/babel__core@https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz. Extracting by manifest.
+97 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.11.25.tgz. Extracting by manifest.
+98 timing reifyNode:node_modules/to-fast-properties Completed in 33ms
+99 timing reifyNode:node_modules/@babel/helper-string-parser Completed in 34ms
+100 timing reifyNode:node_modules/@babel/helper-validator-identifier Completed in 35ms
+101 timing reifyNode:node_modules/@babel/parser Completed in 45ms
+102 timing reifyNode:node_modules/@babel/types Completed in 70ms
+103 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 137ms (cache miss)
+104 timing reifyNode:node_modules/undici-types Completed in 144ms
+105 http fetch GET 200 https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz 459ms (cache miss)
+106 timing reifyNode:node_modules/@types/babel__core Completed in 466ms
+107 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 488ms
+108 timing auditReport:getReport Completed in 489ms
+109 silly audit report {}
+110 timing auditReport:init Completed in 0ms
+111 timing reify:audit Completed in 490ms
+112 http fetch GET 200 https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz 1040ms (cache miss)
+113 timing reifyNode:node_modules/@types/babel__template Completed in 1047ms
+114 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.11.25.tgz 1041ms (cache miss)
+115 timing reifyNode:node_modules/@types/node Completed in 1049ms
+116 http fetch GET 200 https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.20.5.tgz 1075ms (cache miss)
+117 timing reifyNode:node_modules/@types/babel__traverse Completed in 1082ms
+118 http fetch GET 200 https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.6.8.tgz 1076ms (cache miss)
+119 timing reifyNode:node_modules/@types/babel__generator Completed in 1083ms
+120 timing reify:unpack Completed in 1084ms
+121 timing reify:unretire Completed in 0ms
+122 timing build:queue Completed in 1ms
+123 timing build:link:node_modules/@babel/parser Completed in 1ms
+124 timing build:link Completed in 1ms
+125 timing build:deps Completed in 2ms
+126 timing build Completed in 2ms
+127 timing reify:build Completed in 2ms
+128 timing reify:trash Completed in 0ms
+129 timing reify:save Completed in 7ms
+130 timing reify Completed in 5617ms
+131 silly ADD node_modules/undici-types
+132 silly ADD node_modules/to-fast-properties
+133 silly ADD node_modules/@babel/helper-validator-identifier
+134 silly ADD node_modules/@babel/helper-string-parser
+135 silly ADD node_modules/@types/babel__traverse
+136 silly ADD node_modules/@types/babel__template
+137 silly ADD node_modules/@types/babel__generator
+138 silly ADD node_modules/@babel/types
+139 silly ADD node_modules/@babel/parser
+140 silly ADD node_modules/@types/node
+141 silly ADD node_modules/@types/babel__core
+142 timing command:install Completed in 5620ms
+143 verbose exit 0
+144 timing npm Completed in 5784ms
+145 info ok
